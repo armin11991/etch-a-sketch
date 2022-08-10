@@ -16,7 +16,8 @@ function createGrid(gridSize) {
 function blackHover () {
     const gridItem = document.querySelectorAll(".gridItem");
     gridItem.forEach(gridItem => gridItem.addEventListener("mouseover", e => {
-        e.target.style.cssText = "background:black;color:black";
+        //e.target.style.cssText = "background:black;color:black";
+        e.target.style.cssText = "background:black;color:white";
     }));
 
 }

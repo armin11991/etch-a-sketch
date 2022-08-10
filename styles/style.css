@@ -41,9 +41,11 @@ h1 {
 }
 
 .gridItem {
-    /* border: 1px solid black; */
+    border: 1px solid black;
     background: #fff;
-    color: #fff;
+    color: black;
+    min-width: 0;
+    min-height: 0;
 }
 
 #bttnContainer {
